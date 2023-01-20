@@ -1,46 +1,61 @@
-console.log("Hello World!")
+// Data types
 
-/* VARIABLES */
-// var,let,const
-var x = 10
-var y = "LPU"
-var z = 10.2
-var a = "a"
-var g = []
-var i = x
+//var,let,const
 
-let b = 10
-let c = "College"
-let d = "w"
-let e = 10.22
-let f = []
-let h = b
+var a = 10
+var b = "Hello"
+var c = "h"
+var d = 10.03
+var e = false
 
-const hello = "hello"
-const bye = 01323
-const tata = "Cars"
+let f = 10
+let g = "Hello"
+let h = "h"
+let i = 10.03
+let j = false
 
-//let
-// let b = 10 //Cannot Redeclare //Remove the comment to see the difference
-var x = "Shyam" // Redeclare
-x = "2"
-//Scopes of JS
+const k = 10
+const l = "Hello"
+const m = "h"
+const n = 10.03
+const o = false
+const p = []
 
-// Global Scope
-// Function Scope
-// Block Scope
+/*----------Accessbility----------*/
 {
-  //Inside the block
-  let s = 2
-  s++
+  //Block
+  var x = 10 //Function Scope
 }
-// console.log(s) // Cannot Access //Remove the comment to see the difference
+console.log(x) // Can access outside the block
 {
-  var k = "Hello"
+  //Block
+  let y = 20 //Block Scope
 }
-console.log(k) // Can be Accessed outside the block
+// console.log(y) // Cannot access outside the block // Remove the comment to see the change
+
 {
-  const car = "Volkswagen"
+  //Block
+  const z = 30
 }
-//console.log(car)  // Cannot Access //Remove the comment to see the difference
-hello = "Hello World"
+// console.log(z) //Cannot be accessed outside the block // Remove the comment to see the change
+/*--------------------------------------------------------------------------*/
+
+/*----------Redeclare----------*/
+var e // Can Redeclare
+// let f     // Cannot Redeclare // Remove the comment to see the change
+// const k; // Cannot Redeclare // Remove the comment to see the change
+/*--------------------------------------------------------------------------*/
+
+/*----------Re Assigned----------*/
+// console.log(d, "Before") // Remove the comment to see the change
+d = 10 // Can reassign
+// console.log(d, "After") // Remove the comment to see the change
+
+// console.log(h, "Before")
+h = "harsh" // Can reassign
+// console.log(h, "After")
+
+// console.log(k, "Before") // Remove the comment to see the change
+k = 9 // Cannot be Reassigned
+// console.log(k, "After")// Remove the comment to see the change
+/*--------------------------------------------------------------------------*/
