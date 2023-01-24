@@ -32,7 +32,20 @@
 14. String Search
 15. Numbers
 16. Arrays
+    - Initalization
+    - Access the array
+    - Chaning the array
+    - Array Propeties
+      - length
     - Array Methods
+      - sort()
+      - push()
+      - pop()
+      - shift()
+      - unshift()
+      - concat()
+      - splice()
+      - slice()
     - Array Iterations
 17. Comparisons
 18. Loops
@@ -66,3 +79,11 @@ Values, Operators, Expressions, Keywords, and Comments.
 Most JavaScript programs contain many JavaScript statements.
 
 The statements are executed, one by one, in the same order as they are written.
+
+### Arrays
+
+#### Properties
+
+#### Methods
+
+##### pop()
